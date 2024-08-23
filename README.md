@@ -1,1 +1,211 @@
-# tp-HTML-front-end
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            h1 {
+            text-align: center;} 
+            background-color: rgb(135, 113, 140);
+            padding: 10px;
+            border: 3px solid rgb(192, 192, 192);
+            color: rgb(228, 228, 228);
+        }
+        main {
+            padding: 10px;
+            h1, h2{
+            background-color: rgb(215, 184, 234);
+            padding: 10px;
+            border: 3px solid rgb(45, 41, 44);
+            margin-bottom: 10px;}
+            h4{ display: inline;
+            background-color: rgb(195, 143, 223);
+            border-radius: 3px; font-weight: normal;}
+            h5{ font-style: italic;}
+            h6{ text-decoration: underline;}
+            section, article{
+            background-color: rgb(227, 219, 232);
+            border: 3px solid darkgray;
+            }
+            table{
+                margin: 3%;
+                width: 40%;
+                border-collapse: collapse;
+            }
+            th, td{
+                border: 1px solid black;
+                padding: 8px;
+                text-align:center;
+            }
+            th{
+            background-color: rgb(174, 158, 215);
+            font-weight: bold;
+            } 
+        }
+        footer{
+        text-align: center;
+        border: 2px solid rgb(146, 103, 136);
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>｡･:*˚:✧｡Taylor Swift｡✧:˚*:･｡</h1>
+        <ul>
+            <li><a href="#ref1">¿Quién es?</a></li>
+            <li><a href="#ref2">Taylor Swift en Argentina</a></li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <h1 id="ref1">4.1.¿Quién es?</h1>
+            <p>Taylor Alison Swift (West Reading, Pensilvania, 13 de diciembre de 1989) 
+            es una cantante, compositora, productora discográfica, directora, actriz y 
+            empresaria estadounidense.</p>
+        </section>    
+        <section>
+            <h2>4.2.Datos curiosos</h2>    
+            <h3>Taylor Swift es una de las artistas más exitosas del momento</h3>
+            <h4>Hasta la fecha ha sacado 11 álbumes</h4>
+            <h5>Ha regrabado 4 de ellos</h5>
+            <h6>Actualmente esta en su gira "The Eras Tour"</h6>
+        </section>    
+        <section>
+            <h2>4.3.Premios relevantes</h2>
+            <div>
+                <h3>4 veces ganadora del Grammy AoTY</h3>
+                <p>Taylor Swift hizo historia en los Grammy 2024 al convertirse en 
+                la primera persona en ganar cuatro veces Álbum del año. Fearless, 
+                1989, Folklore y Midnights son los discos que consiguieron este premio.</p>
+            </div>
+            <div>
+                <h3>Persona del año</h3>
+                <p>La revista Time nombró en 2023 persona del año a Taylor por su capacidad 
+                de "transcender fronteras y ser una fuente de luz" para millones de personas en el mundo</p>
+            </div>
+        </section>
+        <section>
+            <h2>4.4.Recomendaciones personales</h2>
+            <p>Te invito a ver el nuevo video de Taylor Swift de la canción <a href="https://www.youtube.com/watch?v=Sl6en1NPTYM" 
+            target="_blank">"I Can Do It With A Broken Heart"</a><p>
+            <div>
+                <h3>Top 3 álbumes más escuchados en Spotify</h3>
+                <ol>
+                    <li>1989 (Taylor's Version)</li>
+                    <li>folklore</li>
+                    <li>Red (Taylor's Version)</li>
+                </ol>
+            </div>
+            <div>
+                <h3>Canciones que recomiendo</h3>
+                <ul>
+                    <li>Is  it over now? (Taylor's Version)</li>
+                    <li>How did it end?</li>
+                    <li>You're on your own, kid</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div style="text-align: center;">
+                <h2 id="ref2">4.5.Taylor Swift en Argentina</h2>
+                <img src="https://pbs.twimg.com/media/F-1P47NakAAGCTK?format=jpg&name=4096x4096"
+                width="500px" height="378px"/> 
+                <video src="https://video.twimg.com/ext_tw_video/1724259048306966528/pu/vid/avc1/576x1024/ouLgRXbrF2owK__o.mp4?tag=12"
+                controls width="200px" height="400px"></video>
+            </div>
+            <div style="text-align: center;">
+                <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"
+                controls></audio>    
+            </div>    
+        </section>
+        <section>
+            <h2>4.6.Álbumes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Álbum</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Taylor Swift</td>
+                        <td>2006</td>
+                    </tr>
+                    <tr>
+                        <td>Fearless</td>
+                        <td>2008</td>
+                    </tr>
+                    <tr>
+                        <td>Speak Now</td>
+                        <td>2010</td>
+                    </tr>
+                    <tr>
+                        <td>Red</td>
+                        <td>2012</td>
+                    </tr>
+                    <tr>
+                        <td>1989</td>
+                        <td>2014</td>
+                    </tr>
+                    <tr>
+                        <td>Reputation</td>
+                        <td>2017</td>
+                    </tr>
+                    <tr>
+                        <td>Lover</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>Folklore</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>Evermore</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>Midnights</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>TTPD</td>
+                        <td>2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <article>
+            <h2>4.7.Sorteo</h2>
+            <p>Completa con tus datos y escribe tu album favorito de Taylor 
+            para participar por un vinilo a elección</p>
+            <form>
+                <div>
+                    <label>Nombre:</label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <input type="email"/> 
+                </div>
+                <div>
+                    <label>Mi album favorito es:</label>
+                    <textarea></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <h4>"You are what you love" -Taylor Swift, outro "Daylight"</h4>
+    </footer>
+</body>
+</html>
